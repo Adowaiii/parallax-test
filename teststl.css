@@ -6,6 +6,7 @@ body, html {
   }
 p {
     text-align: center;
+    font-size: 10px;
 }
   
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
@@ -24,27 +25,27 @@ p {
   
   .bgimg-2 {
     background-image: url("./img/img-1.png");
-    min-height: 400px;
+    min-height: 500px;
   }
   
   .bgimg-3 {
     background-image: url("./img/img-2.png");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-4 {
     background-image: url("./img/img-3.png");
-    min-height: 400px;
+    min-height: 500px;
   }
 
   .bgimg-5 {
     background-image: url("./img/img-4.png");
-    min-height: 400px;
+    min-height: 500px;
   }
 
   .bgimg-6 {
     background-image: url("./img/img-5.png");
-    min-height: 400px;
+    min-height: 100%;
   }
   
   .caption {
@@ -61,7 +62,14 @@ p {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    font-weight: bold;
   }
+
+   .captio span.subcaption {
+    font-size: 16px;
+  }
+
+    
   
   h3 {
     letter-spacing: 5px;
